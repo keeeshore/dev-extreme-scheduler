@@ -1,0 +1,38 @@
+{
+  "name": "simple-array-devextreme-scheduler-forked",
+  "description": "You can use the Scheduler component to display and edit appointments from a local array. Use the dataSource property to bind the Scheduler to the array.\nThe Scheduler automatically displays appointments if source object field names match the names listed in the dxSchedulerAppointment help section. In this demo, the following fields illustrate this point: text, startDate, endDate, and allDay. If field names in your data source differ, specify them in ...Expr properties (textExpr, startDateExpr, endDateExpr, allDayExpr, and so on).\nFor more information about binding to an array, refer to the following help topic: Local Array.\n",
+  "dependencies": {
+    "rrule": "2.6.6",
+    "react-dom": "17.0.2",
+    "react": "17.0.2",
+    "prop-types": "15.7.2",
+    "luxon": "1.28.0",
+    "jszip": "3.7.1",
+    "inferno-hydrate": "7.4.10",
+    "inferno-extras": "7.4.10",
+    "inferno-dom": "1.0.7",
+    "inferno-create-element": "7.4.10",
+    "inferno-create-class": "7.4.10",
+    "inferno-compat": "7.4.10",
+    "inferno-clone-vnode": "7.4.10",
+    "inferno": "7.4.10",
+    "es6-object-assign": "1.1.0",
+    "devextreme-react": "21.2.3",
+    "devextreme-quill": "1.5.5",
+    "devextreme": "21.2.3",
+    "devexpress-gantt": "3.1.24",
+    "devexpress-diagram": "2.1.37",
+    "@devextreme/vdom": "2.2.3",
+    "@devextreme/runtime": "2.3.6"
+  },
+  "version": "0.0.0",
+  "devDependencies": {
+    "react-scripts": "1.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
